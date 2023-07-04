@@ -1,7 +1,8 @@
 {
   "configs": [
     "mulesoftproject.xml",
-    "test flow.xml"
+    "test flow.xml",
+    "project1.xml"
   ],
   "secureProperties": [],
   "redeploymentEnabled": true,
@@ -16,6 +17,7 @@
         "application-types.xml",
         "log4j2.xml",
         "mulesoftproject.xml",
+        "project1.xml",
         "test flow.xml"
       ]
     }
