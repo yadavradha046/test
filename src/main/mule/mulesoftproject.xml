@@ -10,5 +10,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	<flow name="mulesoftprojectFlow" doc:id="94e7bef7-e02b-47c3-b538-e9751196cfbb" >
 		<http:listener doc:name="Listener" doc:id="68b65323-70ae-4a0e-b8ef-81da684e041c" config-ref="HTTP_Listener_config" path="/employee"/>
 		<set-payload doc:name="Set Payload" doc:id="9c5dce31-0d45-437d-b462-f9b75a3a0e39" value='"hii"'/>
+		<logger level="INFO" doc:name="Logger" doc:id="20c71398-7670-4108-861a-4af274289f1e" message="hii"/>
 	</flow>
 </mule>
