@@ -14,6 +14,7 @@ http://www.mulesoft.org/schema/mule/file http://www.mulesoft.org/schema/mule/fil
 		<set-variable value="post" doc:name="Set Variable" doc:id="1185b1f5-5987-472c-9445-340177169829" variableName="method"/>
 		<set-variable value="24" doc:name="Set Variable" doc:id="0d88d635-756a-4bea-90b0-9a547be4bac7" variableName="rollno"/>
 		<file:read doc:id="e5d38e0e-6d8b-4c3c-b244-8c5e90af6d80" path="C:\Users\nilam\OneDrive\Documents\Nilu\MuleSoft\MuleSoftLearnig.pdf"/>
-		<set-payload value="#[payload]" doc:name="Set Payload" doc:id="eb44d3d6-9395-410c-b932-83ccb6769bd5" />
+		<set-payload value="#[payload]" doc:name="Set Payload" doc:id="eb44d3d6-9395-410c-b932-83ccb6769bd5" 
+		<set-payload value="#["Hello World.....!!!"]" doc:name="Set Payload" />
 	</flow>
 </mule>
