@@ -18,4 +18,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	<sub-flow name="test_flowSub_flow" doc:id="35106f18-2912-4c5c-9604-aab66746c1c1" >
 		<set-payload value='#[hii you are in sub flow""]' doc:name="subflow payload" doc:id="9564bdda-9fdb-443f-a9ce-096c01d55dd5" />
 	</sub-flow>
+	<sub-flow name="test_flowSub_flow1" >
+		<set-payload value='#[hii you are in sub flow1""]' doc:name="subflow payload" />
+	</sub-flow>
 </mule>
